@@ -278,7 +278,7 @@ minetest.register_entity("banshee:banshee",{
 	-- Basic
 	drops = {
 		{name = "default:mese_crystal_fragment", chance = 1, min = 3, max = 6},
-		{name = "banshee:blowgun", chance = 10, min = 1, max = 2}
+		{name = "banshee:blowgun", chance = 5, min = 1, max = 1}
     },
 	logic = banshee_logic,
 	physics = function(self) end,
