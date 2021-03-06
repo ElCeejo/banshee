@@ -467,7 +467,7 @@ local goo_cube_def = {
 					if minetest.get_player_by_name(self.shooter) then
 						puncher = minetest.get_player_by_name(self.shooter)
 					end
-					object:punch(puncher, 2.0, {full_punch_interval = 0.1, damage_groups = {fleshy = 5}}, nil)
+					object:punch(puncher, 2.0, {full_punch_interval = 0.1, damage_groups = {fleshy = 1}}, nil)
 					self.object:remove()
 				end
 			end
