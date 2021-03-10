@@ -39,7 +39,7 @@ function banshee.hq_linear_pursuit(self, prty, target)
 		if dist > self.view_range then
 			mobkit.animate(self, "spin")
 			self.object:set_velocity({x = 0, y = 0.1, z = 0})
-			if mobkit.timer(self, 1.5) then
+			if mobkit.timer(self, 0.75) then
 				return true
 			end
 		elseif dist > 3 then
